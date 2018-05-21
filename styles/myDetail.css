@@ -1,0 +1,237 @@
+/*content*/
+#content{
+	margin: 10px auto;
+	border: 1px solid #AAA;
+	width: 800px;
+}
+.global_module h3 {
+	height: 26px;
+	background: #3B5998;
+	color: #fff;
+	line-height: 26px;
+	text-indent: 6px;
+}
+.pro_detail {
+	width: 780px;
+	height: auto;
+	overflow: hidden;
+	padding: 10px;
+}
+/*pro_detail_left*/
+.pro_detail_left {
+	width: 380px;
+	float: left;
+	overflow: hidden;
+}
+.pro_detail_left .jqzoom {
+	border: 1px solid #BBB;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	padding: 0;
+}
+.pro_detail_left .fs {
+	width: 300px;
+	height: 300px;
+}
+.pro_detail_left span {
+	text-align: center;
+	width: 310px;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: both;
+}
+.pro_detail_left ul.imgList {
+	height: 80px;
+	float: left;
+	margin-right: 10px;
+}
+.pro_detail_left ul.imgList li {
+	float: left;
+	margin-right: 10px;	
+}
+.pro_detail_left ul.imgList li img {
+	width: 60px;
+	height: 60px;
+	padding: 1px;
+	cursor: pointer;
+	background: #EEE;
+}
+.pro_detail_left .tab {
+	width: 100%;
+
+}
+.pro_detail_left .tab_menu {
+	clear: both;
+}
+
+.pro_detail_left .tab_menu li {
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #898989;
+	border-bottom: none;
+	margin-right: 4px;
+	padding: 1px 6px;
+	background: #F1F1F1;
+}
+.pro_detail_left .tab_menu li.hover { 
+	background:#DFDFDF;
+}
+.pro_detail_left .tab_menu li.selected {
+	background: #6D84B4;
+	color: #fff;
+}
+.pro_detail_left .tab_box {
+	border: 1px solid #8989;
+	clear: both;
+}
+.pro_detail_left .hide {
+	display: none;
+}
+/*pro_detail_right*/
+.pro_detail_right {
+	float: left;
+	width: 380px;
+	margin: 10px;
+}
+.pro_detail_right .color_change {
+	width: 380px;
+	float: left;
+	display: inline;
+	margin-bottom: 10px;
+}
+.pro_detail_right .color_change ul li {
+	float: left;
+	margin-right: 10px;
+}
+.pro_detail_right .color_change img {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #BBB;
+	cursor: pointer;
+	background: #EEE;
+	padding: 1px;
+}
+.pro_detail_right .color_change img:hover { 
+	padding:1px; 
+	background:#999; 
+}
+.pro_detail_right .pro_size {
+	width: 380px;
+	float: left;
+	margin-bottom: 10px;
+	display: inline;
+}
+.pro_detail_right .pro_size ul li {
+	float: left;
+	margin-right: 5px;
+}
+.pro_detail_right .pro_size ul li span {
+	display: block;
+	border: 1px solid #AAA;
+	padding: 1px 12px;
+	margin-right: 6px;
+	cursor: pointer;
+
+}
+.pro_detail_right .pro_size ul li span:hover {
+	background:#CCC; 
+}
+.pro_detail_right .pro_num {
+	width: 380px;
+	font-weight: bold;
+	float: left;
+	margin-bottom: 10px;
+}
+.pro_detail_right .pro_price {
+	width: 380px;
+	font-weight: bold;
+	float: left;
+	display: inline;
+	margin-bottom: 10px;
+}
+.pro_detail_right .pro_rating{
+	width: 380px;
+	font-weight: bold;
+	float: left;
+	display: inline;
+	margin-bottom: 10px;
+}
+.rating {
+	width: 80px;
+	height: 16px;
+	margin: 0 0 20px 0;
+	background: url(../images/star-matrix.gif) no-repeat 0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	clear: both;
+}
+ul.rating li {
+	text-indent: -999em;
+	float: left;
+	cursor: pointer;
+}
+ul.rating li a {
+	position: absolute;
+	left: 0;
+	height: 16px;
+	width: 16px;
+	z-index: 200;
+	text-decoration: none;
+	top: 0;
+}
+.nostar {background-position:0 0}
+.onestar {background-position:0 -16px}
+.twostar {background-position:0 -32px}
+.threestar {background-position:0 -48px}
+.fourstar {background-position:0 -64px}
+.fivestar {background-position:0 -80px}
+
+ul.rating li.one a {left: 0}
+ul.rating li.two a {left: 16px}
+ul.rating li.three a {left: 32px}
+ul.rating li.four a {left: 48px}
+ul.rating li.five a {left: 64px}
+ul.rating li a:hover {
+	width: 80px;
+	height: 16px;
+	overflow: hidden;
+	left: 0;
+	background: url(../images/star-matrix.gif) no-repeat 0 0;
+	z-index: 2;
+}
+ul.rating li.one a:hover {background-position: 0 -96px;}
+ul.rating li.two a:hover {background-position: 0 -112px;}
+ul.rating li.three a:hover {background-position: 0 -128px;}
+ul.rating li.four a:hover {background-position: 0 -144px;}
+ul.rating li.five a:hover {background-position: 0 -160px;}
+
+/*jqzoom*/
+div.zoomdiv {
+	z-index: 999;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	border: 1px solid #CCCCCC;
+	display: none;
+	overflow: hidden;
+	text-align: center;
+}
+div.jqZoomPup{
+	z-index: 999;
+	width: 50px;
+	height: 50px;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	position: absolute;
+	border: 1px solid #aaa;
+	background: #fff url('../images/zoomlens.gif') 50% top no-repeat;
+	opacity: 0.5;
+}

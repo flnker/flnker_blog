@@ -1,0 +1,110 @@
+#header {
+  width: 800px;
+  height: 80px;
+  margin: 10px auto;
+  background: #3B5998;
+  border: 1px solid #AAA;
+}
+#header #logo {
+  float: left;
+  margin: 0 0 0 10px;
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 80px;
+}
+#header #skin {
+  float: right;
+  margin: 10px;
+  width: 120px;
+  background: #fff;
+  border: 1px solid #ccc;
+  list-style: none;
+  padding: 4px;
+}
+#header #skin li {
+  float: left;
+  width: 15px;
+  height: 15px;
+  text-indent: -9999px;
+  margin-right: 4px;
+  display: block;
+  cursor: pointer;
+  background: url(../images/theme.gif);
+  overflow: hidden;
+}
+#header #skin #skin_0 {
+  background-position: 0 0;
+}
+#header #skin #skin_1 {
+  background-position: 15px 0;
+}
+#header #skin #skin_2 {
+  background-position: 35px 0;
+}
+#header #skin #skin_3 {
+  background-position: 55px 0;
+}
+#header #skin #skin_4 {
+  background-position: 75px 0;
+}
+#header #skin #skin_5 {
+  background-position: 95px 0;
+}
+#header #skin #skin_0.selected {
+  background-position: 0 15px;
+}
+#header #skin #skin_1.selected {
+  background-position: 15px 15px;
+}
+#header #skin #skin_2.selected {
+  background-position: 35px 15px;
+}
+#header #skin #skin_3.selected {
+  background-position: 55px 15px;
+}
+#header #skin #skin_4.selected {
+  background-position: 75px 15px;
+}
+#header #skin #skin_5.selected {
+  background-position: 95px 15px;
+}
+#navigation {
+  width: 784px;
+  padding: 8px;
+  margin: 8px auto;
+  height: 18px;
+  background: #3B5998;
+}
+#navigation ul li {
+  float: left;
+  margin-right: 14px;
+  position: relative;
+  z-index: 100;
+}
+#navigation ul li a {
+  background: #EEE;
+  padding: 0 8px;
+  font-weight: 700;
+  display: block;
+}
+#navigation ul li ul {
+  display: none;
+  background: #88C366;
+  position: absolute;
+  width: 80px;
+}
+#navigation ul li:hover ul {
+  background-color: #88C366;
+  position: absolute;
+  width: 100px;
+  display:block;
+}
+#navigation ul li ul li {
+  border-bottom: 1px solid #BBB;
+  text-align: left;
+  width: 100%;
+}
+/*#navigation ul li a:hover{
+  background: green;
+}*/

@@ -1,0 +1,148 @@
+#content {
+	margin: 10px auto;
+	width: 800px;
+	.content_left{
+		background: #eee;
+		width: 200px;
+		border: 1px solid #AAA;
+		float: left;
+		margin-right: 10px;
+			.global_module{
+			position: relative;
+			background: #EEE;
+			padding-bottom: 8px;
+				h3 {
+				height: 26px;
+				background: #3B5998;
+				color: #fff;
+				line-height: 26px;
+				text-indent: 6px;
+				}
+				.scrollNews {
+				width: 200px;
+				height: 85px;
+				overflow: hidden;
+				line-height: 20px;
+				background: #fff;
+					ul{
+					padding: 5px 0 5px 15px;
+						li{
+						height: 20px;
+						}
+					}
+				}
+				.module_up_down {
+				position:absolute;
+				top:4px;
+				right:10px;
+				cursor: pointer;
+				}
+		}
+		.procatalog ul{
+		background: #fff;
+		padding: 5px 0 5px 15px;
+			li.m-expanded{
+			padding-left: 16px;
+			background: url(../images/treeview-expanded.gif) no-repeat 0 0;
+				span{
+				cursor: pointer;
+				}
+				ul{
+					li{
+					list-style-image:url(../images/treeview-item.gif);
+
+					}
+				}
+			}
+		}
+	}
+
+	.content_right{
+	background:#eee;
+	border: 1px solid #AAA;
+	width: 586px;
+	float: left;
+		.ad{
+		width: 586px;
+		height: 150px;
+		overflow:hidden;
+		margin-bottom: 10px;
+		position: relative;
+			.silder{
+			position: absolute;
+			}
+			.num{
+			position:absolute;
+			bottom: 5px;
+			right: 5px;
+				li{
+				float: left;
+				width: 16px;
+				height: 16px;
+				line-height: 16px;
+				text-align: center;
+				font-size: 12px;
+				border: 1px solid #FF7300;
+				cursor: pointer;
+				background: #fff;
+				margin: 3px 1px;
+				color: #FF7300;
+				}
+			}
+		}
+		.prolist{
+		position: relative;
+		height: 220px;
+		overflow: hidden;
+		margin-bottom: 10px;
+		border: 1px solid #AAA;
+		background: #fff;
+			h3 {
+				height: 26px;
+				background: #3B5998;
+				color: #fff;
+				line-height: 26px;
+				text-indent: 6px;
+				}
+			.prolist_content{
+			position: absolute;
+			width: 1800px;
+			padding:20px 0 0 8px;
+			top: 20px;
+				ul{
+				float: left;
+				margin-bottom:10px;
+				height: 220px;
+					li{
+					float:left;
+					display:inline;
+					text-align:center;
+					margin-right: 22px;
+						a{
+							img{
+							display: block;
+							width: 124px;
+							height: 124px;
+							background: #EEE;
+							border:0;
+							}
+							
+						}
+						span{
+						display: block;
+						overflow: hidden;
+
+						}
+					}
+				}
+			}
+			.module_left_right{
+			position: absolute;
+			top:5px;
+			right: 10px;
+			cursor: pointer;
+			}	
+		}
+	}
+
+}
